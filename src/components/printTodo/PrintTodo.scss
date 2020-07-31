@@ -1,0 +1,24 @@
+ul {
+    list-style: none;
+    width:40%;
+    padding:20px;
+    border-left:5px solid rgb(33, 69, 33);
+    li {
+        background-color:rgb(163, 191, 163);
+        margin-bottom:5px;
+        text-align: left;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:5px;
+        span {
+            font-size: 16pt;
+        }
+        button {
+            border:none;
+            color:palevioletred;
+            font-weight:bold;
+            background-color:transparentize($color: rgb(163, 191, 163), $amount: 0);
+        }
+    }
+}
